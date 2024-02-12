@@ -9,6 +9,7 @@ function apiSearch() {
     "mkt": "en-us"
   };
 
+
   $.ajax({
       url: 'my-api-url' + $.param(params),
       beforeSend: function (xhrObj) {
